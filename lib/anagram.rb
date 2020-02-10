@@ -5,8 +5,11 @@ class Anagram
 
   def initialize(w)
     @word_to_compare = w
-    #@array_to_compare_to = a
-    binding.pry
+    #binding.pry
+  end
+  def match(a)
+    @array_to_compare_to = a
+    
   end
 
 end
