@@ -6,6 +6,7 @@ class Anagram
   def initialize(w, a)
     @word_to_compare = w
     @array_to_compare_to = a
+    binding.pry
   end
 
 end
