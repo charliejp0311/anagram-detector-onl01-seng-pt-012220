@@ -21,11 +21,8 @@ class Anagram
         end
 
     end
-    if @all_matches.empty?
-      puts "Nomatches"
-    else
-      @all_matches
-    end
+    @all_matches
+  
   end
 
 end
