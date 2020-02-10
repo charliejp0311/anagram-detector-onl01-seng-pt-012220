@@ -22,7 +22,7 @@ class Anagram
 
     end
     @all_matches
-  
+
   end
 
 end
