@@ -17,9 +17,9 @@ class Anagram
     @array_to_compare_to.each do |word|
 
         if split_word_to_array(@word_to_compare).sort == split_word_to_array(word)
-          @all_matches << word           
+          @all_matches << word
         end
-        
+
     end
     @all_matches
   end
