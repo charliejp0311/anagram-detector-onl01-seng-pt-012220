@@ -9,7 +9,7 @@ class Anagram
   end
   def match(a)
     @array_to_compare_to = a
-    
+
   end
 
 end
